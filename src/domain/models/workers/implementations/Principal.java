@@ -1,6 +1,9 @@
-package models.actors;
+package domain.models.workers.implementations;
 
-public class Principal {
+import domain.models.workers.abstractions.Worker;
+
+public class Principal extends Worker {
+    public int salary = 500;
     private static Principal instance;
     private Principal() {}
 
@@ -14,5 +17,4 @@ public class Principal {
     public String sendReport(String report) {
         return "Received \"" + report + "\" successfully";
     }
-
 }

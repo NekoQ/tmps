@@ -3,9 +3,9 @@ package client;
 import domain.builders.implementations.ClassRoomBuilder;
 import domain.factories.abstractions.ISchoolFactory;
 import domain.factories.implementations.PrimarySchoolFactory;
-import models.actors.Principal;
-import models.rooms.implementations.ClassRoom;
-import models.schools.abstarctions.ISchool;
+import domain.models.workers.implementations.Principal;
+import domain.models.rooms.implementations.ClassRoom;
+import domain.models.schools.abstarctions.ISchool;
 
 public class Main {
     public static void main(String[] args) {
