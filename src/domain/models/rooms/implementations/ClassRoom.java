@@ -1,6 +1,6 @@
-package models.rooms.implementations;
+package domain.models.rooms.implementations;
 
-import models.rooms.abstractions.IRoom;
+import domain.models.rooms.abstractions.IRoom;
 
 import java.util.ArrayList;
 import java.util.List;
