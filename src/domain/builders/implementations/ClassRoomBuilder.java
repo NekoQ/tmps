@@ -1,7 +1,7 @@
 package domain.builders.implementations;
 
 import domain.builders.abstractions.IRoomBuilder;
-import domain.models.rooms.implementations.ClassRoom;
+import models.rooms.implementations.ClassRoom;
 
 public class ClassRoomBuilder implements IRoomBuilder {
     private ClassRoom room;
