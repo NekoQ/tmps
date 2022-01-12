@@ -1,7 +1,7 @@
 package domain.facades;
 
-import domain.models.students.implementations.Student;
-import domain.models.workers.implementations.SecurityGuard;
+import models.students.implementations.Student;
+import models.workers.implementations.SecurityGuard;
 
 public class SecurityGuardFacade {
     protected SecurityGuard guard;

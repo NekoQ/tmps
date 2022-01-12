@@ -1,8 +1,8 @@
 package domain.factories.implementations;
 
 import domain.factories.abstractions.ISchoolFactory;
-import domain.models.schools.abstarctions.ISchool;
-import domain.models.schools.implementations.PrimarySchool;
+import models.schools.abstarctions.ISchool;
+import models.schools.implementations.PrimarySchool;
 
 public class PrimarySchoolFactory implements ISchoolFactory {
     public ISchool create() {
